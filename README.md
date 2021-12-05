@@ -32,7 +32,7 @@ With the right kind of predictors, this model aims to make the property market i
 
 ### Data Dictionary
 
-* [`datadocumentation.txt`](./datasets/datadocumentation.txt): Data Dictionary used in train.csv and test.csv
+* [`datadocumentation.pdf`](./datasets/datadocumentation.pdf): Data Dictionary used in train.csv and test.csv
 * [`data_dictionary.csv`](./datasets/data_dictionary.csv): Dictionary used in train_clean.csv and test_clean.csv
 
 
