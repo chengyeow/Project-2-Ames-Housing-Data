@@ -1,0 +1,37 @@
+data_dictionary
+No,Feature,Type,Dataset,Description
+1,saleprice,integer,train_clean,Sale price of the house
+2,age ,integer,train_clean & test_clean,Age of the house since year built
+3,neighborhood_order/ neighborhood_quality,integer,train_clean & test_clean,"Neighborhood quality by classification of the house quality, overall, exterior and functional"
+4,local_conditions/ local_features,integer,train_clean & test_clean,Positive conditions outside the house
+5,was_remodeled/ remodeled,integer,train_clean & test_clean,Remodelled or Addition to the house
+6,overall_qual/ overall_quality,integer,train_clean & test_clean,Overall quality
+7,house_style_order_1.5/ single_story,integer,train_clean & test_clean,Single story
+8,house_style_order_2.0/ double_story,integer,train_clean & test_clean,Multi story
+9,exter_qual/ external_quality,integer,train_clean & test_clean,External quality
+10,exterior_1n2/ external_features,integer,train_clean & test_clean,External features of the house
+11,bldg_type_duplex/ duplex_building,integer,train_clean & test_clean,Duplex building
+12,bldg_type_twnhs/ townhouse_building,integer,train_clean & test_clean,Townhouse building
+13,bldg_type_twnhse/ townhouse_end_building,integer,train_clean & test_clean,Townhouse end building
+14,bldg_type_2fmcon/ two_family_building,integer,train_clean & test_clean,Family building
+15,roof_style_hip/ roof_quality,integer,train_clean & test_clean,Roof with hip style
+16,mas_vnr_ord/ masonry_veneer,integer,train_clean & test_clean,Masonry veneer type
+17,functional/ functional_building,integer,train_clean & test_clean,Functional building
+18,lot_frontage,float ,train_clean & test_clean,Linear feet of street connected to property
+19,lot_area/ lot_size,integer,train_clean & test_clean,Lot size in square feet
+20,outside_porch_sf/ outside_space,integer,train_clean & test_clean,External porch area
+21,garage_fin_area/ garage_area,float ,train_clean & test_clean,Garage size in square feet
+22,garage_cars,float ,train_clean & test_clean,Size of garage in car capacity
+23,paved_drive/ paved_driveway,integer,train_clean & test_clean,"Paved driveway (Paved, Partial, No)"
+24,bsmt_qual/ basement_quality,integer,train_clean & test_clean,Basement quality
+25,bsmtfin_type_sf/ basement_size,float ,train_clean & test_clean,Basement type 1 and 2
+26,bsmt_exposure/ basement_ceiling,integer,train_clean & test_clean,Garage ceiling to walkout or garden level walls
+27,heating_qc/ heating_quality,integer,train_clean & test_clean,Heating quality
+28,kitchen_qual/ kitchen_quality,integer,train_clean & test_clean,Kitchen quality
+29,fireplace_qu/ fireplace_quality,integer,train_clean & test_clean,Fireplace quality
+30,all_floors_sf/ floors_size,integer,train_clean & test_clean,Total of 1st and 2nd floors size in square feet
+31,totrms_abvgrd/ rooms_above_size,integer,train_clean & test_clean,Total rooms above grade (excluding bath rooms)
+32,room_size,float ,train_clean & test_clean,Room size
+33,all_baths/ bath_rooms,float ,train_clean & test_clean,All bath rooms (full and half)
+34,gr_liv_area/ ground_living_area,integer,train_clean & test_clean,Ground living area in square feet
+35,Id,integer,test_clean,ID for Kaggle submission
