@@ -25,12 +25,14 @@ With the right kind of predictors, this model aims to make the property market i
 
 ### Datasets
 * [`train.csv`](./datasets/train.csv): Train set for training the machine learning models.
-* [`test.csv`](./datasets/test.csv): Test set for Kaggle submission.
+* [`test.csv`](./datasets/test.csv): Test set provided for Kaggle submission.
+* [`train_clean.csv`](./datasets/train_clean.csv): Train set cleaned for modeling evaluation.
+* [`test_clean.csv`](./datasets/test_clean.csv): Test set cleaned for Kaggle submission.
 
 
 ### Data Dictionary
 
-* [`datadescription.txt`](./datasets/datadescription.txt): Data Dictionary used in train.csv and test.csv
+* [`datadescription.txt`](./datasets/datadocumentation.txt): Data Dictionary used in train.csv and test.csv
 * [`data_dictionary.csv`](./datasets/data_dictionary.csv): Dictionary used in train_clean.csv and test_clean.csv
 
 
