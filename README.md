@@ -3,11 +3,13 @@
 
 ### Problem Statement
 
-Property flipping is an investment strategy of purchasing a property with a short holding period with the intent of selling it for a quick profit. All investments have risks.
+To help novice property flippers manage risks, we will provide consultation upon application, based on our home valuation that predicts the sale prices of homes in Ames, Iowa. We have modeled Linear Regression, Ridge, Lasso and Elastic Net models. The sale price prediction software is also helpful for property buyers or sellers.
 
-To those about to buy a property, our objective is to share our home valuation model that predicts the sale prices of homes in Ames, Iowa. Upon engagement of our consultancy service, we can apply this model to your prospective property.
+To better manage risks for new property flippers, we recommend the Reno Flip.
 
-The reno flip, in which a property flipper improves undervalued properties with renovations and/or cosmetic changes, is deemed less risky. To help the novice property flippers, our recommendations will focus on features that are more likely to increase property value when renovated, and which features to de-prioritise.
+Thus, our recommendations will focus on property features that are more likely to increase property value when renovated, and which features to de-prioritise. It is important to have this modelling predicts a good accuracy of the features as it will help the audience (property flippers) to maximise the property potential.
+
+Success will be driven by the most optimal linear regression models with the best RMSE score using Linear regression, ridge, lasso and elastic net modelling.
 
 
 ### Executive Summary
@@ -22,6 +24,9 @@ The model, and our understanding of the key features will be beneficial to exist
 
 With the right kind of predictors, this model aims to make the property market in Ames a fair and competitive one that will benefit both buyers and sellers.
 
+Please note that there are two files to this project.
+- G2 Ames Housing Data Cleaning - Part 1
+- G2 Ames Housing Modeling - Part 2
 
 ### Datasets
 * [`train.csv`](./datasets/train.csv): Train set for training the machine learning models.
